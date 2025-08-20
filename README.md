@@ -16,7 +16,7 @@ Each new run for a different model needs to be created inside a `with` block (as
 
 # The data
 
-It comes from the publicly available NYC Taxi dataset, often used for machine learning practice. It has also been combined with latitude and longitude information corresponding to the zip codes in the original data. This comes from [here](https://public.opendatasoft.com/explore/dataset/georef-united-states-of-america-zc-point/table/).
+It comes from the publicly available NYC Taxi dataset, often used for machine learning practice (this version was what was available as a starting dataset in a free Databricks account). It has also been combined with latitude and longitude information corresponding to the zip codes in the original data. This comes from [here](https://public.opendatasoft.com/explore/dataset/georef-united-states-of-america-zc-point/table/).
 
 # Contact
 
