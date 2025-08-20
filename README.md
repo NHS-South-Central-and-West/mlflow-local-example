@@ -12,6 +12,8 @@ To add more runs using different model types, you will first need to import the 
 
 Each new run for a different model needs to be created inside a `with` block (as demonstrated in the notebook). You define the `run_name` to make the run identifiable, and at the bottom of the block, you can give the model a name to make it identifiable i.e. in the line `mlflow.sklearn.log_model(lrg,'basic_logistic_regression')`, where `lrg` is the variable containing the instantiated model and `basic_logistic_regression` was the sensible human-readable name to be displayed in the mlflow user interface.
 
+**Please feel free to flesh out the examples, if you would like to contribute. Just branch and submit a pull request when you are ready.**
+
 # The data
 
 It comes from the publicly available NYC Taxi dataset, often used for machine learning practice. It has also been combined with latitude and longitude information corresponding to the zip codes in the original data. This comes from [here](https://public.opendatasoft.com/explore/dataset/georef-united-states-of-america-zc-point/table/).
